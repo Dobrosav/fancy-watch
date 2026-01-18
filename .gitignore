@@ -1,0 +1,11 @@
+.idea/
+*
+
+!/src/
+
+
+!/src/*/
+!/src/**/
+
+/*.java
+!/src/**/*.java
