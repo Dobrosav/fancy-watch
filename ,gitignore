@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# Do not ignore directories (so we can traverse them)
+!*/
+
+# Track only Java files inside src
+!src/**/*.java
+
+# Track the documentation
+!README.md
