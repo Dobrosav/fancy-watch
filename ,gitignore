@@ -1,6 +1,6 @@
 # Ignore everything by default
 *
-
+/idea
 # Do not ignore directories (so we can traverse them)
 !*/
 
