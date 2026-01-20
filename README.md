@@ -35,8 +35,8 @@
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/do-watch.git
-    cd do-watch
+    git clone https://github.com/Dobrosav/fancy-watch.git
+    cd fancy-watch
     ```
 
 2.  **Compile the source**
