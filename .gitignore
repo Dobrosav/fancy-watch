@@ -1,1 +1,14 @@
-!pom.xml
+# Maven build output
+/target/
+
+# IDE specific files
+/.idea/
+/out/
+*.iml
+*.iws
+
+# Log files
+*.log
+
+# VM crash logs
+hs_err_pid*
