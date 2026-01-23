@@ -9,6 +9,7 @@
 
 # Log files
 *.log
-
+.settings
+.project
 # VM crash logs
 hs_err_pid*
