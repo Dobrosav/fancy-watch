@@ -9,3 +9,4 @@
 
 /*.java
 !/src/**/*.java
+pom.xml
