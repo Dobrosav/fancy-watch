@@ -30,6 +30,7 @@
 
 ### Prerequisites
 *   Java Development Kit (JDK) 8 or higher.
+*   Apache Maven.
 
 ### Installation & Run
 
@@ -39,21 +40,22 @@
     cd fancy-watch
     ```
 
-2.  **Compile the source**
+2.  **Build the project with Maven**
     ```bash
-    mkdir -p bin
-    javac -d bin src/DoWatch.java
+    mvn clean install
     ```
+    This command will compile the code, run tests, and create an executable JAR file in the `target/` directory.
 
 3.  **Launch the application**
     ```bash
-    java -cp bin DoWatch
+    java -jar target/fancy-watch-1.0-SNAPSHOT.jar
     ```
 
 ## 🛠️ Tech Stack
 *   **Language**: Java
 *   **UI Framework**: Swing (JPanel, JFrame)
 *   **Rendering**: Java 2D API (Graphics2D, GradientPaint, AffineTransform)
+*   **Build Tool**: Apache Maven
 
 ## 👨‍💻 Credits
 **Designed & Developed by:** Dobrosav Vlaskovic
