@@ -1,12 +1,1 @@
-.idea/
-*
-
-!/src/
-
-
-!/src/*/
-!/src/**/
-
-/*.java
-!/src/**/*.java
-pom.xml
+!pom.xml
